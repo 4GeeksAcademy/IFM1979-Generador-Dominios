@@ -1,11 +1,20 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+const pron = ['the', 'our'];
+const adj = ['great', 'big'];
+const noun = ['jogger', 'racoon'];
+const domain = [".com", ".net",".org", ".eu"];
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+for (let i = 0; i < pron.length; i++) {
+for (let a = 0; j < adj.length; j++) {
+  for (let b = 0; k < noun.length; k++) {
+    for (let l = 0; l < domain.length; l++) {
+      console.log(pron[i]+ adj[j] 
+  + noun[k] + domain[l]);
+    }
+    
+  }
+  
+}
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+}
+
+
